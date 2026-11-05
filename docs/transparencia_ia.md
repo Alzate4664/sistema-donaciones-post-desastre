@@ -25,9 +25,3 @@ Enlace al ejemplo de Dijkstra: https://github.com/evalenciEAFIT/EstructurasDeDat
 C++20: continuidad con el taller y tipos de fecha seguros. GUI Win32: aprovecha el entorno Windows sin instalar Qt. AVL propio: demostrar balanceo y consultas de rango. Hash y heap estándar: contenedores probados y foco en la política de asignación; debe confirmarse la expectativa docente sobre implementación manual. FEFO + urgencia: política transparente, sin atribuir optimalidad global. Snapshots: impedir que un fallo de I/O mezcle inventario nuevo con historial antiguo.
 
 Una revisión independiente de código identificó el riesgo de guardado parcial y la validación incompleta de rutas históricas. Se escribieron pruebas que reprodujeron ambos fallos, luego se corrigieron y se ejecutó la suite. También se endureció el rechazo de saldos negativos importados.
-
-## Responsabilidad y evidencia
-
-No se afirma que Miguel Angel Alzate Osorno ya domine o haya revisado este código: eso debe demostrarse en la sustentación individual. Como preparación, debe estudiar `docs/diseno.md` y `docs/guia_sustentacion.md`, ejecutar los casos de prueba, modificar los datos y explicar las invariantes antes de entregar. La IA no puede sustituir esa sustentación.
-
-Los resultados observados y sus límites figuran en `docs/pruebas.md`; `benchmark.csv` contiene mediciones reales. El método no fue TDD estricto en todos los módulos iniciales: las pruebas se escribieron antes que el núcleo, pero varias pasaron en su primera ejecución. Las correcciones de revisión sí tuvieron fallo reproducido antes del cambio. No presentar un historial de commits o revisiones personales que no ocurrió.
