@@ -54,14 +54,3 @@ CSV acepta comas dentro de comillas y comillas escapadas duplicándolas; rechaza
 Cada guardado crea un snapshot nuevo, lo valida y sustituye un único puntero `actual.csv`. En Windows usa `MoveFileExW` con reemplazo y escritura completada. Si falla antes, el puntero anterior sigue activo; pueden quedar versiones huérfanas, conservadas por seguridad.
 
 La interfaz utiliza controles nativos, teclado y etiquetas. Carga, guardado y planificación trabajan en segundo plano; el hilo de la ventana recoge los resultados mediante un temporizador. Mientras tanto se bloquean cambios y cierre. Confirmar y modificar inventario ocurre en el hilo de UI. El refresco de tablas aún es síncrono y no virtualizado; no se ha validado la fluidez del panel con cientos de miles de filas.
-
-## Preguntas para la sustentación
-
-1. ¿Qué pasaría si reemplazamos el AVL por el BST del curso y entran fechas ordenadas?
-2. ¿Por qué FIFO no sirve para atender urgencia 5 antes de urgencia 2?
-3. ¿Por qué la consulta de rango cuesta O(log n+k), no solo O(log n)?
-4. ¿Qué representa una entrada obsoleta del heap de Dijkstra?
-5. ¿Qué cambia si una carretera se cierra después de proponer?
-6. ¿Cómo comprobamos que cargar historial no invente unidades ni acepte un camino inexistente?
-7. ¿Por qué un heap local reconstruido tiene costo de refresco distinto al de una extracción individual?
-8. ¿Qué garantiza el snapshot y qué queda fuera de su garantía?
