@@ -4,7 +4,7 @@ Proyecto académico C++20 basado en el parcial 3 de Estructuras de Datos y Algor
 
 **Estudiante:** Miguel Angel Alzate Osorno. **Modalidad:** trabajo individual.
 
-La [memoria del proyecto](docs/memoria_proyecto.md) reúne la presentación de la entrega. La [guía de sustentación](docs/guia_sustentacion.md) propone un recorrido de estudio y demostración.
+La [memoria del proyecto](docs/memoria_proyecto.md) reúne la presentación de la entrega.
 
 ## Abrir
 
@@ -56,7 +56,3 @@ En Linux/macOS se compilan el núcleo, las pruebas y el benchmark con CMake; la 
 La carpeta de ejemplo contiene CSV editables de importación inicial. Al guardar, el sistema escribe una carpeta `version-...`, la vuelve a cargar para validarla y publica `actual.csv`, que apunta a esa versión. Las cargas posteriores leen esa versión; para editar archivos a mano, edite el snapshot señalado o use otra carpeta inicial. No modifique `actual.csv` mientras el programa trabaja.
 
 Un fallo antes de publicar conserva el snapshot anterior. Las versiones anteriores se conservan; no hay limpieza automática. No se soportan varias instancias escribiendo en la misma carpeta, ni se ofrece una garantía frente a fallo físico del almacenamiento. Las operaciones del inventario son secuenciales y el modelo no contiene reservas pendientes: reservado se mantiene en cero y la confirmación es inmediata.
-
-## Antes de entregar
-
-Miguel Angel Alzate Osorno presenta el proyecto de forma individual. Repositorio personal proporcionado por el estudiante: [https://github.com/Alzate4664/sistema-donaciones-post-desastre](https://github.com/Alzate4664/sistema-donaciones-post-desastre). El repositorio de entrega es público: el código y la documentación pueden consultarse con el enlace. La visibilidad pública no concede permiso para modificar el repositorio. No se ha enviado la entrega a EAFIT. Revise con el docente si se exige implementar hash y heap desde cero: aquí se usan `std::unordered_map` y `std::priority_queue`, y el AVL sí es propio. No hay una exigencia de implementación manual explícita en el PDF leído.
