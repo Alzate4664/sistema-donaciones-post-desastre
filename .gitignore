@@ -1,0 +1,7 @@
+build/
+*.obj
+*.pdb
+*.ilk
+*.tmp
+datos/version-*/
+datos/actual.csv

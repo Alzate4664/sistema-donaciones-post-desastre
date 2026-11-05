@@ -1,0 +1,5 @@
+id,donante,centro,categoria,caducidad,cantidad,peso_kg_unidad,volumen_m3_unidad,frio,disponible,reservado,despachado
+L1,D1,AC1,agua,2026-12-30,500,1,0.001,0,500,0,0
+L2,D1,AC1,medicamentos,2026-11-10,100,0.2,0.002,1,100,0,0
+L3,D1,AC2,alimentos,2026-12-01,300,2,0.003,0,300,0,0
+L4,D1,AC1,refugio,2027-01-01,40,10,0.1,0,40,0,0

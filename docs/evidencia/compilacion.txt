@@ -1,0 +1,8 @@
+Nota: inclusi├│n del archivo:     C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\crtdefs.h
+Nota: inclusi├│n del archivo:    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\pplcancellation_token.h
+Nota: inclusi├│n del archivo: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\set
+Nota: inclusi├│n del archivo:  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xtree
+[ 81%] Linking CXX executable donaciones_gui.exe
+[ 81%] Built target donaciones_gui
+[ 90%] Linking CXX executable benchmark.exe
+[100%] Built target benchmark

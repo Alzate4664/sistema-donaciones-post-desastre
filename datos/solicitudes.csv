@@ -1,0 +1,4 @@
+id,municipio,categoria,cantidad,llegada,pendiente
+S1,M1,agua,200,1,200
+S2,M2,medicamentos,40,2,40
+S3,M3,alimentos,100,3,100

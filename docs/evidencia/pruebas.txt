@@ -1,0 +1,23 @@
+OK fechas estrictas
+OK validaciones
+OK AVL rotaciones y eliminacion
+OK AVL aleatorio contra set
+OK Dijkstra y cierres
+OK prioridad y FEFO parcial
+OK reintento y propuesta obsoleta
+OK propuesta alterada rechazada
+OK sin ruta no descuenta
+OK frio capacidad y vencimiento al llegar
+OK triaje desempate y pendiente
+OK CSV roundtrip comillas historial
+OK masivas secuenciales
+OK CSV malformado e importacion atomica
+OK CSV campo nulo y cabecera incorrecta
+OK red modificada invalida propuesta
+OK capacidad parcial y agotamiento
+OK historial inconsistente rechazado
+OK fallo guardado conserva snapshot anterior
+OK historial llegada y tramos invalidos
+OK CSV negativos rechazados
+OK siguiente viable por urgencia
+22/22 pruebas correctas

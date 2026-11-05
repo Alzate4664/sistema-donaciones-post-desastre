@@ -1,0 +1,6 @@
+origen,destino,minutos,frio,cerrada
+AC1,M1,45,1,0
+M1,M2,90,1,0
+AC1,M2,180,1,0
+AC2,M3,100,0,0
+M2,M3,120,0,1

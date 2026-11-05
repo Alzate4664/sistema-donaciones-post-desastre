@@ -1,0 +1,8 @@
+Internal ctest changing into directory: C:/Users/migue/Documents/Codex/2026-11-05/https-github-com-evalencieafit-estructurasdedatos-https-2/work/build
+Test project C:/Users/migue/Documents/Codex/2026-11-05/https-github-com-evalencieafit-estructurasdedatos-https-2/work/build
+    Start 1: pruebas
+1/1 Test #1: pruebas ..........................   Passed    0.42 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   0.43 sec
