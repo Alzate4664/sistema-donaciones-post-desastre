@@ -59,7 +59,7 @@ El [informe de pruebas](pruebas.md) presenta resultados, metodología y límites
 
 Miguel Angel Alzate Osorno presenta el proyecto como estudiante único. El desarrollo tuvo asistencia de IA en análisis, implementación, generación de pruebas y documentación. Se conserva la atribución del profesor para el ejemplo algorítmico adaptado. Esta presentación individual no implica que el código se haya producido sin asistencia.
 
-El [anexo de transparencia](transparencia_ia.md) identifica prompts y decisiones asistidas. El dominio del código debe demostrarse personalmente en la sustentación; la [guía de preparación](guia_sustentacion.md) orienta ese estudio sin sustituirlo.
+El [anexo de transparencia](transparencia_ia.md) identifica prompts y decisiones asistidas.
 
 ## 8. Alcance de la entrega
 
